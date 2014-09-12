@@ -1,9 +1,9 @@
 <script type="text/javascript">
 
-var apiURL = YoUR_APITOOLSERVICE_URL //will change later;
+var apiURL = "https://41171e59-c41b6b65e9cc.my.apitools.com/"
 
 $("#yoOneButton").click(function(){
-    //pass the username typed in input field
+    //pass the username typed in input field    
     yoOne($("#yoUsername").val());
 });
 
